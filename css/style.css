@@ -5,11 +5,13 @@ mark, rp, rt, ruby, summary, time {
 	display:inline;
 }
 body {
-	background:#fff;
+	/*background:#fff;*/
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:100%;
 	line-height:1em;
-	color:#454545;
+	/*color:#454545;*/
+	background:url(../images/tail-middle_repeat.jpg) repeat;
+}
 }
 html {
 	min-width:940px;
@@ -97,8 +99,14 @@ embed {
 	height:auto !important;
 	height:100%;
 	min-height:100%;
-	background:url(../images/tail-middle.jpg) repeat-y center 194px;
+	background:url(../images/tail-middle_cut.jpg)repeat-y center 194px;
+	/*background:url(../images/tail-middle.jpg) repeat-y center 194px;*/
 	min-width:940px;
+}
+.wrap1
+{
+	
+	background:url(../images/tail-middle_repeat.jpg) repeat-y center 194px;
 }
 input, select, textarea {
 	font-family:Arial, Helvetica, sans-serif;
@@ -511,9 +519,11 @@ header nav ul li.current a.m5 {
 	overflow:auto;
 }
 footer {
-	background:url(../images/footer-bg.png) no-repeat center top;
-	margin-top:-120px;
-	min-width:940px;
+	background:url(../images/tail-middle_repeat.jpg) no-repeat;
+	margin-left:94px;
+	/*margin-top:-120px;*/
+	
+	/*min-width:940px;*/
 }
 footer .footerlink {
 	margin:0 auto;
